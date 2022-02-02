@@ -1,2 +1,2 @@
-- [tag](tag-lang.org/tag): language specification
-- [hasktag](tag-lang.org/hasktag): haskell implementation 
+- [tag](./tag): language specification
+- [hasktag](./hasktag): haskell implementation 
