@@ -1,0 +1,21 @@
+title: tag-lang.org
+author: 
+  name: Claudio Nicoli Pannacci
+  email: claudio.pannacci@protonmail.com
+description: > 
+  the abstraction game language
+
+header_pages:
+
+show_excerpts: false
+
+remote_theme: jekyll/minima
+
+minima:
+  skin: dark
+  date_format: "%Y-%m-%-d"
+  social_links:
+    github: tag-lang
+
+plugins:
+  - jekyll-feed
