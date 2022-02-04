@@ -1,2 +1,2 @@
-# tag-lang
-the abstraction game language
+# tag-lang.org
+the abstraction game language web page
