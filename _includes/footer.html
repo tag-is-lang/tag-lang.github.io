@@ -7,13 +7,15 @@
       <div class="footer-col">
         <p>{{ site.description | escape }}</p>
         <p>
-          <span>&lt; </span> 
-          <a class="feed-subscribe meta" href="{{ 'feed.xml' | relative_url }}">
-            <svg class="svg-icon white">
-              <use xlink:href="{{ 'assets/minima-social-icons.svg#rss' | relative_url }}"></use>
-            </svg><span>subscribe</span>
-          </a>
+          <span>&lt; </span>
+          <span class="meta">
+            <a class="feed-subscribe" href="{{ 'feed.xml' | relative_url }}">
+               <svg class="svg-icon white">
+               <use xlink:href="{{ 'assets/minima-social-icons.svg#rss' | relative_url }}"></use>
+               </svg><span>subscribe</span>
+            </a>
           <span> || </span>
+          </span>
           <span class="meta">
              <a  href="{{ site.edit }}">edit this page</a>
           </span>
