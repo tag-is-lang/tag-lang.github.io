@@ -8,10 +8,10 @@
         <p>{{ site.description | escape }}</p>
         <p>
           <span>&lt; </span> 
-          <a class="feed-subscribe meta" href="{{ 'feed.xml' | relative_url }}">
-            <svg class="svg-icon white">
+          <a class="feed-subscribe" href="{{ 'feed.xml' | relative_url }}">
+            <svg class="svg-icon meta">
               <use xlink:href="{{ 'assets/minima-social-icons.svg#rss' | relative_url }}"></use>
-            </svg><span>subscribe</span>
+            </svg><span class="meta">subscribe</span>
           </a>
           <span> || </span>
           <span class="meta">
